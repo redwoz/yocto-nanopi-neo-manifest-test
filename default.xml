@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/redwoz" name="redwoz"/>
+  <remote fetch="git://github.com/linux-sunxi" name="sunxi"/>
+  <remote fetch="git://github.com/bmwcarit" name="bmwcarit"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+
+  <project name="meta-nanopi-neo-test" path="meta-nanopi-neo-test" remote="redwoz" revision="master"/>
+  <project name="meta-sunxi" path="poky/meta-sunxi" remote="sunxi" revision="6e3cc4b886a965621102a3d73409b1f0506eee5e" upstream="refs/heads/krogoth"/>
+  <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revision="55c8a76da5dc099a7bc3838495c672140cedb78e" upstream="refs/heads/krogoth"/>
+  <project name="meta-ros" path="poky/meta-ros" remote="bmwcarit" revision="75a14ef32d6d7ccc6202a8303c18c4f34382e7f5" upstream="refs/heads/master"/>
+  <project name="poky" remote="yocto" revision="ae9b341ecfcc60e970f29cfe04306411ad26c0cf" upstream="refs/heads/krogoth"/>
+</manifest>
