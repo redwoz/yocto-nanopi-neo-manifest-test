@@ -14,6 +14,6 @@
   <project name="meta-ros" path="poky/meta-ros" remote="bmwcarit" revision="75a14ef32d6d7ccc6202a8303c18c4f34382e7f5" upstream="refs/heads/master"/>
   <project name="poky" remote="yocto" revision="ae9b341ecfcc60e970f29cfe04306411ad26c0cf" upstream="refs/heads/krogoth"/>
 
-  <project name="meta-mali" remote="arm" revision="80742f27ab429e01176bbb5d555843e3da17a59a" upstream="refs/heads/master"/>
+  <project name="meta-mali" path="poky/meta-mali" remote="arm" revision="80742f27ab429e01176bbb5d555843e3da17a59a" upstream="refs/heads/master"/>
 
 </manifest>
